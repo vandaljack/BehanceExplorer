@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4698097C-9FB9-44B0-A138-C34F2A5F2A16</string>
+	<key>IDESourceControlProjectName</key>
+	<string>behanceExplorer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>65D2C5FB-DCC1-4AD3-9F92-E4EDCCE6D90E</key>
+		<string>ssh://github.com/anilcougar/BehanceExplorer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>behanceExplorer.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>65D2C5FB-DCC1-4AD3-9F92-E4EDCCE6D90E</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/anilcougar/BehanceExplorer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>65D2C5FB-DCC1-4AD3-9F92-E4EDCCE6D90E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>65D2C5FB-DCC1-4AD3-9F92-E4EDCCE6D90E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>behanceExplorer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
