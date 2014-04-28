@@ -133,10 +133,12 @@
         if (listingType == 1) {
     
             targetVC.stringListingURL = [NSString stringWithFormat:@"https://www.behance.net/v2/users/%@/followers/?api_key=FkY5tlsYyNzuFINfeNpzK33PdHo7Wyg7" ,self.dictUserInformation[@"username"]];
+            self.title = @"Followers";
         }
         
         else if (listingType == 2) {
             targetVC.stringListingURL = [NSString stringWithFormat:@"https://www.behance.net/v2/users/%@/following/?api_key=FkY5tlsYyNzuFINfeNpzK33PdHo7Wyg7" ,self.dictUserInformation[@"username"]];
+            self.title = @"Following";
         }
 
     }
