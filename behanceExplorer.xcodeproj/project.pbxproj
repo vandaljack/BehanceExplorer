@@ -21,6 +21,8 @@
 		0409C15C190BCD5500DBD948 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0409C13E190BCD5500DBD948 /* UIKit.framework */; };
 		0409C164190BCD5500DBD948 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0409C162190BCD5500DBD948 /* InfoPlist.strings */; };
 		0409C166190BCD5500DBD948 /* behanceExplorerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0409C165190BCD5500DBD948 /* behanceExplorerTests.m */; };
+		0422AA9D191BD27600FF0595 /* BAXAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422AA9C191BD27600FF0595 /* BAXAuthViewController.m */; };
+		0422AAA0191BD44100FF0595 /* BAXMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422AA9F191BD44100FF0595 /* BAXMainTableViewController.m */; };
 		0447D024190E6CDC00D62348 /* BAXWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447D023190E6CDC00D62348 /* BAXWelcomeViewController.m */; };
 		0447D027190E76AA00D62348 /* BAXUserDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447D026190E76AA00D62348 /* BAXUserDetailViewController.m */; };
 		0447D02A190E83B000D62348 /* BAXUserListingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0447D029190E83B000D62348 /* BAXUserListingTableViewController.m */; };
@@ -57,6 +59,10 @@
 		0409C161190BCD5500DBD948 /* behanceExplorerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "behanceExplorerTests-Info.plist"; sourceTree = "<group>"; };
 		0409C163190BCD5500DBD948 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0409C165190BCD5500DBD948 /* behanceExplorerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = behanceExplorerTests.m; sourceTree = "<group>"; };
+		0422AA9B191BD27600FF0595 /* BAXAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAXAuthViewController.h; sourceTree = "<group>"; };
+		0422AA9C191BD27600FF0595 /* BAXAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAXAuthViewController.m; sourceTree = "<group>"; };
+		0422AA9E191BD44100FF0595 /* BAXMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAXMainTableViewController.h; sourceTree = "<group>"; };
+		0422AA9F191BD44100FF0595 /* BAXMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAXMainTableViewController.m; sourceTree = "<group>"; };
 		0447D022190E6CDC00D62348 /* BAXWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAXWelcomeViewController.h; sourceTree = "<group>"; };
 		0447D023190E6CDC00D62348 /* BAXWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAXWelcomeViewController.m; sourceTree = "<group>"; };
 		0447D025190E76AA00D62348 /* BAXUserDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAXUserDetailViewController.h; sourceTree = "<group>"; };
@@ -184,6 +190,10 @@
 				0447D026190E76AA00D62348 /* BAXUserDetailViewController.m */,
 				0447D028190E83B000D62348 /* BAXUserListingTableViewController.h */,
 				0447D029190E83B000D62348 /* BAXUserListingTableViewController.m */,
+				0422AA9B191BD27600FF0595 /* BAXAuthViewController.h */,
+				0422AA9C191BD27600FF0595 /* BAXAuthViewController.m */,
+				0422AA9E191BD44100FF0595 /* BAXMainTableViewController.h */,
+				0422AA9F191BD44100FF0595 /* BAXMainTableViewController.m */,
 			);
 			name = "Welcome Party";
 			sourceTree = "<group>";
@@ -330,10 +340,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0409C151190BCD5500DBD948 /* ViewController.m in Sources */,
+				0422AA9D191BD27600FF0595 /* BAXAuthViewController.m in Sources */,
 				0409C14B190BCD5500DBD948 /* AppDelegate.m in Sources */,
 				0447D027190E76AA00D62348 /* BAXUserDetailViewController.m in Sources */,
 				0409C147190BCD5500DBD948 /* main.m in Sources */,
 				0447D024190E6CDC00D62348 /* BAXWelcomeViewController.m in Sources */,
+				0422AAA0191BD44100FF0595 /* BAXMainTableViewController.m in Sources */,
 				0447D02A190E83B000D62348 /* BAXUserListingTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
